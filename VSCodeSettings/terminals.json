@@ -1,0 +1,24 @@
+//this is for the terminals manager extension
+{
+  "autorun": false,
+  "terminals": [
+    {
+      "name": "Frontend",
+      "description": "Meant for a react  project",
+      "color": "terminal.ansiRed",
+      "command": "cd frontend && npm run dev"
+    },
+    {
+      "name": "Backend",
+      "description": "Meant for a node project",
+      "color": "terminal.ansiBlue",
+      "command": "cd backend && nodemon server.js"
+    },
+    {
+      "name": "Git",
+      "color": "yellow",
+      "focus": true,
+      "command": "git status"
+    }
+  ]
+}
