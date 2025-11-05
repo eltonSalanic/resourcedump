@@ -6,17 +6,20 @@
       "name": "Frontend",
       "description": "Meant for a react  project",
       "color": "terminal.ansiRed",
+      "icon": "cursor-frame",
       "command": "cd frontend && npm run dev"
     },
     {
       "name": "Backend",
       "description": "Meant for a node project",
       "color": "terminal.ansiBlue",
+      "icon": "server",
       "command": "cd backend && nodemon server.js"
     },
     {
       "name": "Git",
       "color": "yellow",
+      "icon": "branch",
       "focus": true,
       "command": "git status"
     }
