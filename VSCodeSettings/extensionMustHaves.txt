@@ -1,0 +1,20 @@
+- npm Intellisense
+https://open-vsx.org/vscode/item?itemName=christian-kohler.npm-intellisense
+
+- Tailwind Intellisense
+https://open-vsx.org/vscode/item?itemName=bradlc.vscode-tailwindcss
+
+- Autocomplete HTML Tag
+https://open-vsx.org/vscode/item?itemName=formulahendry.auto-rename-tag
+
+- GitLens
+https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+
+- Postman
+https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode
+
+- Terminals Manager
+https://open-vsx.org/vscode/item?itemName=fabiospampinato.vscode-terminals
+
+- Auto Close Tag
+https://open-vsx.org/vscode/item?itemName=formulahendry.auto-close-tag
