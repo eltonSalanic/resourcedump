@@ -1,4 +1,6 @@
-//this is for the terminals manager extension
+//FOR TERMINALS MANAGER EXTENSION
+
+//Cursor Settings
 {
   "autorun": false,
   "terminals": [
@@ -20,6 +22,34 @@
       "name": "Git",
       "color": "yellow",
       "icon": "branch",
+      "focus": true,
+      "command": "git status"
+    }
+  ]
+}
+
+//Antigravity Settings
+{
+  "autorun": false,
+  "terminals": [
+    {
+      "name": "Frontend",
+      "description": "Meant for a react  project",
+      "color": "terminal.ansiRed",
+      "icon": "vm",
+      "command": "cd frontend && npm run dev"
+    },
+    {
+      "name": "Backend",
+      "description": "Meant for a node project",
+      "icon": "server",
+      "color": "terminal.ansiBlue",
+      "command": "cd backend && nodemon server.js"
+    },
+    {
+      "name": "Git",
+      "color": "terminal.ansiYellow",
+      "icon": "git-branch",
       "focus": true,
       "command": "git status"
     }
