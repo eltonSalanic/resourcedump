@@ -1,6 +1,7 @@
 //FOR TERMINALS MANAGER EXTENSION
 
-//Cursor Settings
+//----CURSOR----
+//React Frontend, Node Backend
 {
   "autorun": false,
   "terminals": [
@@ -16,7 +17,7 @@
       "description": "Meant for a node project",
       "color": "terminal.ansiBlue",
       "icon": "server",
-      "command": "cd backend && nodemon server.js"
+      "command": "cd backend && npm run dev"
     },
     {
       "name": "Git",
@@ -28,7 +29,8 @@
   ]
 }
 
-//Antigravity Settings
+//----ANTIGRAVITY----
+//React Frontend, Node Backend
 {
   "autorun": false,
   "terminals": [
@@ -45,6 +47,27 @@
       "icon": "server",
       "color": "terminal.ansiBlue",
       "command": "cd backend && nodemon server.js"
+    },
+    {
+      "name": "Git",
+      "color": "terminal.ansiYellow",
+      "icon": "git-branch",
+      "focus": true,
+      "command": "git status"
+    }
+  ]
+}
+
+//Next.js
+{
+  "autorun": false,
+  "terminals": [
+    {
+      "name": "Frontend",
+      "description": "Meant for a react  project",
+      "color": "terminal.ansiRed",
+      "icon": "vm",
+      "command": "npm run dev"
     },
     {
       "name": "Git",
